@@ -17,5 +17,5 @@ CREATE TABLE assistance_requests
   started_at TIMESTAMP,
   completed_at TIMESTAMP,
   student_feedback TEXT,
-  teacher_feedback TEXT
+  teacher_feedback TEXT 
 );
