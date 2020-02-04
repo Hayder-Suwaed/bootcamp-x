@@ -11,4 +11,4 @@ FROM students
 JOIN assignment_submissions ON student_id = students.id 
 WHERE students.end_date IS null
 GROUP BY students.name
-ORDER BY average_duration DESC;
+ORDER BY average_duration DESC; 
